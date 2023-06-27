@@ -9,7 +9,10 @@ import SwiftUI
 
 struct QOne: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Text("Who are Grover Underwood and Annabeth Chase ? ")
+            .fontWeight(.heavy)
+            .foregroundColor(Color(red: 0, green: 0, blue: 128))
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD57AF4E2A4B33AE0083BF26 /* wrongPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD57AF4D2A4B33AE0083BF26 /* wrongPage.swift */; };
 		BDF4363A2A4633F5000E1AB2 /* QuestionsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF436392A4633F5000E1AB2 /* QuestionsAppApp.swift */; };
 		BDF4363C2A4633F5000E1AB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4363B2A4633F5000E1AB2 /* ContentView.swift */; };
 		BDF4363E2A4633F7000E1AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF4363D2A4633F7000E1AB2 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD57AF4D2A4B33AE0083BF26 /* wrongPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wrongPage.swift; sourceTree = "<group>"; };
 		BDF436362A4633F5000E1AB2 /* QuestionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF436392A4633F5000E1AB2 /* QuestionsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsAppApp.swift; sourceTree = "<group>"; };
 		BDF4363B2A4633F5000E1AB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			children = (
 				BDF436392A4633F5000E1AB2 /* QuestionsAppApp.swift */,
 				BDF4363B2A4633F5000E1AB2 /* ContentView.swift */,
+				BD57AF4D2A4B33AE0083BF26 /* wrongPage.swift */,
 				BDF436472A46344A000E1AB2 /* QOne.swift */,
 				BDF4364B2A4635CF000E1AB2 /* QTwo.swift */,
 				BDF4363D2A4633F7000E1AB2 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDF4364C2A4635CF000E1AB2 /* QTwo.swift in Sources */,
+				BD57AF4E2A4B33AE0083BF26 /* wrongPage.swift in Sources */,
 				BDF436482A46344A000E1AB2 /* QOne.swift in Sources */,
 				BDF4363C2A4633F5000E1AB2 /* ContentView.swift in Sources */,
 				BDF4363A2A4633F5000E1AB2 /* QuestionsAppApp.swift in Sources */,

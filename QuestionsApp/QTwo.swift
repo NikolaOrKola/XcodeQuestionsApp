@@ -9,7 +9,9 @@ import SwiftUI
 
 struct QTwo: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Where is Camp Half-Blood")
+            .fontWeight(.heavy)
+            .foregroundColor(Color(red: 0, green: 0, blue: 128))
     }
 }
 

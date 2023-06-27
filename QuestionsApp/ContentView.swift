@@ -13,6 +13,7 @@ struct ContentView: View {
             ZStack{
                 Color(.systemGreen)
                     .ignoresSafeArea()
+                //this is a comment
                 VStack {
                     Spacer()
                     Text("Percy Jackson Quiz")
@@ -23,7 +24,7 @@ struct ContentView: View {
                     Spacer()
                     
                         NavigationLink(destination: QOne()) {
-                            Text("Play")
+                            Text(" Play! ")
                         }
                         //buttonStyle(.borderedProminent)
                         .tint(.blue)
