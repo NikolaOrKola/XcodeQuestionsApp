@@ -29,17 +29,14 @@ struct ContentView: View {
                         Text(" Play! ")
                     }
                     .buttonStyle(.borderedProminent)
-                    .tint(Color ( red : 0 , green : 20 , blue : 100) )
+                    .tint(Color ( red : 5/255 , green : 10/255 , blue : 200/255) )
                     
                     //.background(Color(red: 0 , green: 20 , blue: 100))
 
                     //.tint(.red)
                 }
-                
+                Spacer()
             }
-            
-           Spacer()
-            
         }
     }
 }
