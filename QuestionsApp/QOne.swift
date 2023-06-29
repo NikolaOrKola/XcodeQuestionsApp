@@ -9,10 +9,33 @@ import SwiftUI
 
 struct QOne: View {
     var body: some View {
-        
-        Text("Who are Grover Underwood and Annabeth Chase ? ")
-            .fontWeight(.heavy)
-            .foregroundColor(Color(red: 0, green: 0, blue: 128))
+        VStack{
+            
+            Spacer()
+            
+            Text("Who are Grover Underwood and Annabeth Chase ?  \n ")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(Color(red: 0, green: 0, blue: 128))
+            NavigationStack {
+                
+                NavigationLink(destination: wrongPage()) {
+                    Text(" Main charecter's enemy and girlfriend \n \n")
+                }
+                
+                NavigationLink(destination: QTwo()) {
+                    Text("A saytr and a demigod \n \n")
+                }
+               
+                NavigationLink(destination: wrongPage() ) {
+                    Text("a couple of gods")
+                }
+
+                
+            }
+            
+        }
+        .padding()
     }
 }
 
